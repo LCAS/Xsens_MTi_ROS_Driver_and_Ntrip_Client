@@ -22,6 +22,8 @@ git clone --recursive --branch ros2 https://github.com/xsenssupport/Xsens_MTi_RO
 ## Device Settings - Output Configurations
 #### Note: the UTC Time, SampleTimeFine, Status Word, Latitude and Longitude needs to be enabled, in order to get GPGGA data for topic ``/nmea``: MT Manager - Device Settings - Output Configuration , select "UTC Time, Sample TimeFine, Status Word, Latitude and Longitude" and other required data, click "Apply"
 
+### MT Manager can be downloaded form [here](https://base.movella.com/s/article/MT-Manager-Installation-Guide-for-ubuntu-20-04-and-22-04?language=en_US) MT Software Suite 2025.0 for Linux 
+
 Here are the recommended Output Configurations and Device Settings:
 
 ![Alt text](MTi-680_Output_Configuration.png)
