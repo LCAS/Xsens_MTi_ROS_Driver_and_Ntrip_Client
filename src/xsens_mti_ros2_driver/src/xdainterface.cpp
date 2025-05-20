@@ -157,7 +157,7 @@ void XdaInterface::registerPublishers()
 		registerCallback(new AngularVelocityHRPublisher(m_node));
 	}
 
-	if(isDeviceVruAhrs || isDeviceGnss)
+	if(isDeviceVruAhrs || isDeviceGnss || true) // IH 20/5/2025 HACK 
 	{
 		if (m_node->get_parameter("pub_imu", should_publish) && should_publish)
 		{
